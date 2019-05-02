@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Serif|Roboto');
+
+.intro-page {
+    padding-bottom: 170px;
+    min-height: calc(100vh - 170px);
+    background-image:url(../images/hosokheader.jpg);
+    background-repeat: repeat;
+    background-position: center top;
+    background-size: cover;
+    z-index: 10;
+}
+
+.menu-wrapper {
+    transition: background-color .2s linear;
+    z-index: 99 !important;
+    background-color: #475B63;
+    width: 100% !important;
+    top: 0;
+    position: fixed;
+}
+
+#about {
+    background-color: #475B63;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    z-index: 7;
+}
+
+#about .section-title-holder span {
+    color: #D3C1D2;
+}
+
+#about .section-title-holder
+{
+    background-color: #474056;
+}
+
+#portfolio {
+    background-color: #475B63;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    z-index: 7;
+}
+
+#portfolio .section-title-holder span {
+    color: #D3C1D2;
+}
+
+#portfolio .section-title-holder
+{
+    background-color:  #628395;
+}
+
+footer {
+    background-color: #475B63;
+}
+
+.footer {
+    font-size: 16px;
+    line-height: 36px;
+    color: #A1BF7C;
+    text-align: center;
+}
+
+.footer a {
+    color: #C6D8AF;
+}
+
+.single-portfolio .x-close {
+    top: -60px;
+    right: -60px;
+    background-color: #475B63;
+    line-height: 0;
+    font-size: 0;
+    width: 60px;
+    height: 60px;
+}
+
+a.button {
+    display: inline-block;
+    color: #475B63;
+    border: 2px solid #475B63;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .2s linear;
+}
+
+a.button:hover
+{
+    color: white;
+    background-color: #D3C1D2;
+}
+
+body a {
+    text-decoration: none;
+    color: #6560c1;
+    transition: color .2s linear;
+}
+
+.single-portfolio .x-close
+{
+    top: -60px;
+    right: -60px;
+    background-color: #475B63;
+    line-height: 0;
+    font-size: 0;
+    width: 60px;
+    height: 60px
+}
+
+#portfolio-1
+{
+    background-color: #475B63;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+}
+
+#portfolio-2
+{
+
+    background-color: #475B63;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% auto;
+}
+
+.member-position
+{
+    line-height: 16px;
+    font-size: 14px;
+    padding-bottom: 25px;
+    color: #475B63;
+    letter-spacing: 4px;
+}
+
+#contact
+{
+    background-color: #475B63;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    z-index: 3;
+}
+
+#contact .section-title-holder
+{
+    background-color: #5C6E5B;
+}
+
+#contact .section-title-holder span
+{
+    color: #D3C1D2;
+}
+
+.contact-form input[type=text], .contact-form input[type=email], .contact-form textarea
+{
+    color: #475B63;
+    border: 0;
+    border-bottom: 1px solid #475B63;
+    height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    line-height: 25px;
+    padding: 0;
+}
+
+.contact-form input[type=submit]
+{
+    color: #475B63;
+    display: inline-block;
+    border: 2px solid #475B63;
+    text-align: center;
+    padding: 12px 0px;
+    cursor: pointer;
+    margin-top: 30px;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all .2s linear;
+}
+
+.contact-form input[type=submit]:hover
+{
+    color: white;
+    background-color: #D3C1D2;
+}
